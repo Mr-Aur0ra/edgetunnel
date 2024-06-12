@@ -9,7 +9,8 @@ let userID = 'e8b5e740-8583-4b99-996e-f866296d52ae';
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
 let sub = '';// 留空则使用内置订阅
-let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假uuid和host订阅。
+let subconverter = 'http://193.122.105.124:8003/';
+// 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "http://193.122.105.124:8004/cloud.ini"
 // "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 
